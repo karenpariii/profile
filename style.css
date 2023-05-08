@@ -1,0 +1,84 @@
+body {
+  font-family: serif ;
+  background-color: #f2cc8f;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h2,h3 {
+  font-family: serif;
+  color: #e63946 ;
+  font-size: 30px;
+  line-height: 2;
+  text-decoration: underline ;
+}
+
+p{
+  font-family:'Open Sans', sans-serif;
+}
+
+a {
+  color: #023e8a;
+  text-decoration: none ;
+}
+
+a:hover {
+  color: #fca311 ;
+  text-decoration: none ;
+}
+
+img {
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#bouton {
+width: 200px;
+height: 200 px;
+margin: 10px;
+padding: 10px;
+background-color: #f2cc8f;
+border-radius: 10%;
+color: black;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border: 1px solid 52796f;
+  margin : 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius:10px;
+}
+
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width:960px) {
+  /* For a screen < 000 px , a computer, this CSS will be read */
+.container {
+  width: 700px;
+}
+}
+
+@media (max-width:720px) {
+  /* For a screen < 720 px , a tablet, this CSS will be read */
+.container {
+  width: 500px;
+}
+}
+
+@media (max-width:540px) {
+  /* For a screen < 540 px , a phone,  this CSS will be read */
+.container {
+  width: 90%;
+}
+}
